@@ -9,4 +9,5 @@ pub mod functions;
 
 pub mod collections;
 pub mod ownership;
+pub mod panic_lesson;
 pub mod structs;

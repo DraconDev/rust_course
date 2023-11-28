@@ -1,4 +1,7 @@
-use learn_rust_book::collections::vectors;
+use learn_rust_book::{
+    collections::{hash_maps, vectors},
+    panic_lesson::{file_practice, panicky},
+};
 
 mod learn_rust_book;
 mod my_mod;
@@ -11,14 +14,21 @@ fn regex_test() {
 }
 
 fn main() {
-    function();
-    regex_test();
-    vectors();
+    // hash_maps();
+    // panicky();
+    file_practice();
+
+    // let mut s = String::from("foo");
+
+    // s.push_str("bar");
+    // function();
+    // regex_test();
+    // vectors();
 
     // * import from module
-    my_mod::function();
-    test_modules::say_hi();
-    learn_rust_book::functions::print_labeled_measurement(5, 'h');
+    // my_mod::function();
+    // test_modules::say_hi();
+    // learn_rust_book::functions::print_labeled_measurement(5, 'h');
 
     // * import from lib
     // rust_course::front_of_house::hosting::add_to_waitlist();

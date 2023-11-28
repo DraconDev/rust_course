@@ -4,17 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "lldb",
             "request": "launch",
             "name": "Debug unit tests in library 'rust_course'",
             "cargo": {
-                "args": [
-                    "test",
-                    "--no-run",
-                    "--lib",
-                    "--package=rust_course"
-                ],
+                "args": ["test", "--no-run", "--lib", "--package=rust_course"],
                 "filter": {
                     "name": "rust_course",
                     "kind": "lib"
@@ -28,11 +24,7 @@
             "request": "launch",
             "name": "Debug executable 'rust_course'",
             "cargo": {
-                "args": [
-                    "build",
-                    "--bin=rust_course",
-                    "--package=rust_course"
-                ],
+                "args": ["build", "--bin=rust_course", "--package=rust_course"],
                 "filter": {
                     "name": "rust_course",
                     "kind": "bin"
