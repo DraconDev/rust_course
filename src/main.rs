@@ -4,6 +4,7 @@ use learn_rust_book::{
 };
 
 mod learn_rust_book;
+mod leetcode;
 mod my_mod;
 mod test_modules;
 
